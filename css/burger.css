@@ -1,0 +1,110 @@
+nav {
+  height: 10vh;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background: #000;
+  margin: 5px;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+}
+
+.light-line {
+  background: #fff;
+}
+
+nav {
+  position: relative;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 50%;
+  -webkit-transform: translate(-5%, -50%);
+          transform: translate(-5%, -50%);
+  z-index: 2;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  background: #000;
+  height: 100vh;
+  padding: 20vh 0;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  clip-path: circle(100px at 130% -10%);
+  -webkit-clip-path: circle(100px at 130% -10%);
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  pointer-events: none;
+}
+
+.nav-links.open {
+  clip-path: circle(1500px at 90% -10%);
+  -webkit-clip-path: circle(1500px at 90% -10%);
+  pointer-events: all;
+  position: fixed;
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav-links.open {
+    clip-path: circle(110vw at 90% -10%);
+    -webkit-clip-path: circle(110vw at 90% -10%);
+  }
+}
+
+.landing {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav-links li {
+  opacity: 0;
+}
+
+.nav-links li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links li:nth-child(1) {
+  -webkit-transition: all 0.5s ease 0.2s;
+  transition: all 0.5s ease 0.2s;
+}
+
+.nav-links li:nth-child(2) {
+  -webkit-transition: all 0.5s ease 0.4s;
+  transition: all 0.5s ease 0.4s;
+}
+
+.nav-links li:nth-child(3) {
+  -webkit-transition: all 0.5s ease 0.6s;
+  transition: all 0.5s ease 0.6s;
+}
+
+li.fade {
+  opacity: 1;
+}
+
+main {
+  height: 200vh;
+}
+/*# sourceMappingURL=burger.css.map */
