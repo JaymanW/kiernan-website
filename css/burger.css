@@ -81,6 +81,8 @@ nav {
 
 .nav-links li a {
   font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
   text-decoration: none;
   color: #fff;
 }
@@ -102,9 +104,5 @@ nav {
 
 li.fade {
   opacity: 1;
-}
-
-main {
-  height: 200vh;
 }
 /*# sourceMappingURL=burger.css.map */
