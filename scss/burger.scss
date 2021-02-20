@@ -41,6 +41,7 @@ nav {
     -webkit-clip-path: circle(100px at 130% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
+    z-index: 1;
   }
 
   .nav-links.open {
