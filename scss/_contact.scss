@@ -1,0 +1,75 @@
+/* CONTACT */
+#contact {
+    background-image: url(../assets/kiernanContact.png);
+    background-size: cover;
+    background-position: 100% 0px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    hr {
+        margin: 0 auto;
+        width: 50px;
+        height: 5px;
+        background: #000;
+        border: none;
+    }
+}
+
+.contact-cnt {
+    font-family: "Roboto", sans-serif;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    &-item:nth-child(n+2) {
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #contact {
+        text-align: center;
+        margin-top: 13rem;
+        padding-top: 7rem;
+        padding-bottom: 10rem;
+
+        .heading {
+            font-size: 2.5rem;
+        }
+    
+        hr {
+            margin: 0 auto;
+            margin-top: 0.5rem;
+            width: 50px;
+            height: 5px;
+            background: #000;
+            border: none;
+        }
+    }
+    
+    .contact-cnt {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.7rem;
+        font-weight: 700;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0 auto;
+        margin-top: 3rem;
+    
+        &-item:nth-child(n+2) {
+            margin: 0;
+            margin-left: 5rem;
+
+            img {
+                margin-bottom: 1.1rem;
+            }
+        }
+    }
+}
