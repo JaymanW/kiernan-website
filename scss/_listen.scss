@@ -2,7 +2,10 @@
 #listen {
     margin-top: 3.5rem;
     text-align: center;
-    padding-bottom: 10rem;
+
+    h2 {
+        font-size: 2.5rem;
+    }
 }
 
 .listen-cnt {
@@ -14,6 +17,10 @@
 
     a  {
         text-decoration: none;
+
+        img {
+            width: 150px;
+        }
     }
 
     a:nth-child(n+2) {
@@ -40,6 +47,10 @@
     
         a  {
             text-decoration: none;
+
+            img {
+                width: 200px;
+            }
         }
     
         a:nth-child(n+2) {

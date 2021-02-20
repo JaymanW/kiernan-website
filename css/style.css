@@ -257,7 +257,10 @@ html {
 #listen {
   margin-top: 3.5rem;
   text-align: center;
-  padding-bottom: 10rem;
+}
+
+#listen h2 {
+  font-size: 2.5rem;
 }
 
 .listen-cnt {
@@ -279,6 +282,10 @@ html {
 
 .listen-cnt a {
   text-decoration: none;
+}
+
+.listen-cnt a img {
+  width: 150px;
 }
 
 .listen-cnt a:nth-child(n+2) {
@@ -313,8 +320,89 @@ html {
   .listen-cnt a {
     text-decoration: none;
   }
+  .listen-cnt a img {
+    width: 200px;
+  }
   .listen-cnt a:nth-child(n+2) {
     margin-top: 0;
+  }
+}
+
+/* MERCH */
+#merch {
+  margin-top: 4rem;
+  text-align: center;
+  padding-bottom: 20rem;
+}
+
+#merch .subtitle {
+  font-size: 0.9rem;
+}
+
+#merch h2 {
+  font-size: 2.2rem;
+}
+
+.merch-img {
+  margin-top: 2rem;
+  width: 200px;
+}
+
+.merch-text {
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.merch-text a {
+  color: #000;
+}
+
+@media only screen and (min-width: 768px) {
+  #merch {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  #merch .subtitle {
+    margin-top: 3.5rem;
+    font-size: 1.1rem;
+  }
+  #merch h2 {
+    font-size: 2.5rem;
+  }
+  .merch-wrapper {
+    width: 50%;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .merch-img {
+    position: absolute;
+    right: 4vw;
+    width: 40%;
+    max-width: 450px;
+    margin: 0;
+  }
+  .merch-text {
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .merch-img {
+    position: absolute;
+    right: 0;
+    width: 40%;
+    max-width: 450px;
+    margin: 0;
   }
 }
 

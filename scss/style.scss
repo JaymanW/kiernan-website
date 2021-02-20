@@ -25,12 +25,10 @@ html {
     z-index: 2;
 }
 
-
-
-
 @import 'landing';
 @import 'about';
 @import 'listen';
+@import 'merch';
 
 @media only screen and (min-width: 768px) {
     .heading {
