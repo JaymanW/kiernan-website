@@ -1,4 +1,24 @@
 /* FOOTER */
 footer {
-    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background: #000;
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-size: 0.7rem;
+        color: #c0c0c0;
+
+        a {
+            color: #c0c0c0;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    footer p {
+        font-size: 1.1rem;
+    }
 }

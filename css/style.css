@@ -17,7 +17,6 @@ html {
 /* HEADER */
 #logo {
   position: absolute;
-  cursor: pointer;
   left: 5%;
   top: 25%;
   width: 100px;
@@ -79,6 +78,16 @@ html {
   background: #000;
   border: none;
   color: #fff;
+}
+
+.landing-btn-about a {
+  color: #000;
+  text-decoration: none;
+}
+
+.landing-btn-merch a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* ABOUT */
@@ -482,7 +491,33 @@ html {
 
 /* FOOTER */
 footer {
-  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 8vh;
+  background: #000;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+  color: #c0c0c0;
+}
+
+footer p a {
+  color: #c0c0c0;
+}
+
+@media only screen and (min-width: 768px) {
+  footer p {
+    font-size: 1.1rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
