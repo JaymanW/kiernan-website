@@ -468,24 +468,19 @@ html {
     font-family: "Roboto", sans-serif;
     font-size: 1.7rem;
     font-weight: 700;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    margin: 0 auto;
     margin-top: 3rem;
   }
   .contact-cnt-item:nth-child(n+2) {
     margin: 0;
-    margin-left: 5rem;
+    margin-top: 3rem;
+    font-size: 1.4rem;
   }
   .contact-cnt-item:nth-child(n+2) img {
     margin-bottom: 1.1rem;
+  }
+  .contact-cnt-item:nth-child(n+2) a {
+    color: #000;
+    text-decoration: none;
   }
 }
 
